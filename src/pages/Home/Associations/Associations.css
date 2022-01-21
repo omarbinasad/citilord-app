@@ -1,0 +1,12 @@
+.associations-slide {
+  display: flex;
+  align-items: center;
+}
+
+.associations-slide > img {
+  width: 50%;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}

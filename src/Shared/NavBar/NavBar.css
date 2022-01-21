@@ -1,0 +1,72 @@
+.custom-nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-bottom: -90px;
+}
+.custom-nav-bar {
+  background-color: rgba(0, 0, 0, 0.541);
+  backdrop-filter: blur(10px);
+}
+.custom-nav-bar ul li a {
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.custom-nav-bar ul li a:hover {
+  border-bottom: 3px solid rgb(14, 126, 14);
+  color: rgb(59, 177, 59) !important;
+}
+.custom-nav-bar ul li a.active {
+  border-bottom: 3px solid rgb(14, 126, 14);
+  color: rgb(59, 177, 59) !important;
+}
+/* .navbar-dark .navbar-nav .nav-link.active {
+  color: yellow !important;
+} */
+
+.custom-nav-bar ul li {
+  margin-right: 30px;
+}
+.navbar-brand > img {
+  width: 150px;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.856);
+  backdrop-filter: blur(10px);
+  animation: mymove 0.3s;
+}
+
+.dropdown-menu > li {
+  margin-right: 0 !important;
+}
+.dropdown-menu > li:hover {
+  background-color: rgba(0, 0, 0, 0.856) !important;
+}
+
+.my-citi-lord-btn {
+  background-color: rgb(223, 171, 0);
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+}
+
+@keyframes mymove {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* @keyframes mymoveend {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+} */
